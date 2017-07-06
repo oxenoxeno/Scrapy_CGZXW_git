@@ -4,14 +4,19 @@ A simple example of Scrapy, which crawls a [website's](http://cgzx.org.cn) artic
 
 # Installation instructions
 
-1. Installing the relative packages:
-	pip install scrapy
+Installing the relative packages:	
+
 	pip install pymssql
+
+	pip install scrapy
 
 
 To verify that this worked, try running the main.py file
+
 	python main.py
+
 Or run scrapy as:
+
 	scrapy crawl cgzxw
 
 ^_^
