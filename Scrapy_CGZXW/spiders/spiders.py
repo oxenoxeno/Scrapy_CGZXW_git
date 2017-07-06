@@ -50,14 +50,6 @@ class cgzxw_spider(CrawlSpider):
         yield item
 
 
-        # 备用
-        # for sel in response.xpath('//*[@id="center"]/div[6]/div[1]/div[2]/ul/table/tbody/tr[1]/td/span[1]/a'):
-            # item = ScrapyCgzxwItem()
-            # item['name'] = sel.xpath('a/div/text()').extract()[0]
-            # item['link'] = sel.xpath('a/@href').extract()[0]
-            # item['desc'] = sel.xpath('div/text()').extract()[0].strip()
-            # yield item
-
 
 
 
