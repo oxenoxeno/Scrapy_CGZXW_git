@@ -88,15 +88,9 @@ class SQLServerPipeline(object):
                 print row[0]
             self.conn.commit()
 
-            # 如果update/delete/insert记得要conn.commit()
-            # 否则数据库事务无法提交
-            # print (cur.fetchall())
-            # all = self.cur.fetchall()
 
         except pymssql.Error, e:
             print "Error:" + str(e)
-            # self.cur.close()
-            # self.conn.close()
 
 
 
