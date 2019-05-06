@@ -1,4 +1,4 @@
-# A simple example of Scrapy
+# A Scrapy
 
 A simple example of Scrapy, which crawls a [website's](http://cgzx.org.cn) article then insert into SQL Server 2008.
 
